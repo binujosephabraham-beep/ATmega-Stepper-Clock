@@ -3802,6 +3802,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -3947,6 +4048,18 @@
 		(uuid "4425bc5b-16b1-4576-b45f-75fc3b6459c8")
 	)
 	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f1c8284-6ddf-486f-9c9c-9b8101fe241c")
+	)
+	(junction
+		(at 97.79 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93024a09-25ae-4a4d-911a-79b7f21103e3")
+	)
+	(junction
 		(at 129.54 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3969,6 +4082,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd579cfe-0ad0-4a4f-a65f-356ad38cae64")
+	)
+	(junction
+		(at 134.62 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b59f43-c809-42ec-9578-951e570f077b")
 	)
 	(junction
 		(at 129.54 88.9)
@@ -4104,7 +4223,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 199.39) (xy 173.99 199.39)
+			(xy 162.56 199.39) (xy 173.99 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4404,6 +4523,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793bcde2-4d8a-4e06-9946-eac03eb067c2")
+	)
+	(wire
+		(pts
 			(xy 165.1 204.47) (xy 173.99 204.47)
 		)
 		(stroke
@@ -4534,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 73.66) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66e329d-8f6c-429f-bcb7-e4b3bf8f62ae")
+	)
+	(wire
+		(pts
 			(xy 349.25 53.34) (xy 349.25 57.15)
 		)
 		(stroke
@@ -4614,7 +4753,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 129.54 86.36)
+			(xy 129.54 80.01) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4674,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 140.97 86.36)
+			(xy 129.54 86.36) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4861,16 +5000,6 @@
 			(type default)
 		)
 		(uuid "ffb4947b-2de3-4dfa-a91f-6fffa7f530e3")
-	)
-	(label "RESET"
-		(at 115.57 73.66 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ee445bd-13e4-4f25-ae84-6371556fc788")
 	)
 	(global_label "SCK"
 		(shape input)
@@ -5072,7 +5201,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 163.83 199.39 180)
+		(at 162.56 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5082,7 +5211,7 @@
 		)
 		(uuid "40d567f3-7a6f-4c03-8279-a25fd1a6f6db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.2767 199.39 0)
+			(at 156.0067 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5377,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 115.57 80.01 270)
+		(at 115.57 76.2 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5258,7 +5387,7 @@
 		)
 		(uuid "76bca6d0-71ef-42b5-9b26-cc61d9671dd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 88.7403 90)
+			(at 115.57 84.9303 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
 			(at 120.65 118.11 0)
 			(effects
 				(font
@@ -5761,7 +5890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 292.862 60.96 90)
 			(effects
 				(font
@@ -5864,75 +5993,6 @@
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -11.43 -137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1525e883-64bf-4864-8c95-c98ab70c0303")
-		(property "Reference" "R5"
-			(at -9.652 -138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at -9.652 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -13.208 -137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -11.43 -137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -11.43 -137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf0d6d53-d628-4378-85fb-d338e5f9360f")
-		)
-		(pin "1"
-			(uuid "e139d4a6-4793-4356-8f91-fc1584707eff")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6295,75 +6355,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -17.78 -137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36885981-88db-49f2-ad64-2265eff5b202")
-		(property "Reference" "R4"
-			(at -16.002 -138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at -16.002 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -19.558 -137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -17.78 -137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -17.78 -137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76b30eef-2635-4824-8e5e-8c91e04e66c7")
-		)
-		(pin "1"
-			(uuid "4bee181c-72c7-4978-84be-dc6801e4fcd4")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 349.25 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6389,7 +6380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 347.472 60.96 90)
 			(effects
 				(font
@@ -6457,7 +6448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP80P900X900X120-32N"
+		(property "Footprint" "SamacSys_Parts:QFP80P900X900X120-32N"
 			(at 208.28 160.96 0)
 			(effects
 				(font
@@ -6679,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4410b8b5-cd0b-446b-ad13-06b2e93d0d20")
-		(property "Reference" "DIN"
+		(property "Reference" "DIN1"
 			(at 185.42 191.77 0)
 			(effects
 				(font
@@ -6893,7 +6884,7 @@
 		(instances
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "DIN")
+					(reference "DIN1")
 					(unit 1)
 				)
 			)
@@ -6909,7 +6900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c3168ca-6540-4e7b-8579-7a16294b15ef")
-		(property "Reference" "ISP"
+		(property "Reference" "ISP1"
 			(at 163.83 176.5299 0)
 			(effects
 				(font
@@ -6985,7 +6976,7 @@
 		(instances
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "ISP")
+					(reference "ISP1")
 					(unit 1)
 				)
 			)
@@ -7150,7 +7141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P15.00mm_Horizontal"
 			(at 113.03 124.7648 0)
 			(effects
 				(font
@@ -7345,7 +7336,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 129.54 85.09 0)
+		(at 129.54 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7354,7 +7345,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c3c85f4-2109-41a1-9368-7166a479b45c")
 		(property "Reference" "#PWR02"
-			(at 129.54 88.9 0)
+			(at 129.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7354,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 129.54 80.01 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 85.09 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 85.09 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 85.09 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,6 +7395,138 @@
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2df386-0992-4948-9bd5-bd5259905f00")
+		(property "Reference" "#FLG01"
+			(at 134.62 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97caad8d-e585-4735-83d7-e76a53ad40a5")
+		)
+		(instances
+			(project ""
+				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ddad88-604e-4a1c-bd3b-68f3d1c71b51")
+		(property "Reference" "#FLG02"
+			(at 97.79 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "380b153b-2272-4476-b00f-77fb3814abf2")
+		)
+		(instances
+			(project "ATmega328 Stepper Clock"
+				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7674,75 +7797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at -19.05 -125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b611eeb3-87c3-4bbd-9579-93d82ab3d4d5")
-		(property "Reference" "C3"
-			(at -16.002 -126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -16.002 -123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -18.0848 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -19.05 -125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -19.05 -125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1896a7f-1fee-4342-8e8f-08ae4c014720")
-		)
-		(pin "2"
-			(uuid "5daa0c1a-94c9-4f34-bf70-8c964f451210")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 318.77 73.66 0)
 		(unit 1)
@@ -7875,75 +7929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at -8.89 -125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd8ecc31-5f6b-42ea-b811-e2258dd7fb05")
-		(property "Reference" "C4"
-			(at -5.842 -126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -5.842 -123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -7.9248 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -8.89 -125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -8.89 -125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94f94504-2152-4c30-93fa-9e1eb23706a4")
-		)
-		(pin "2"
-			(uuid "c568034b-53b0-48e6-9fe7-76d31fec8236")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 349.25 53.34 0)
 		(unit 1)
@@ -8036,7 +8021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P15.00mm_Horizontal"
 			(at 113.03 110.7948 0)
 			(effects
 				(font
@@ -8104,7 +8089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCRT5000"
+		(property "Footprint" "SamacSys_Parts:TCRT5000"
 			(at 337.82 159.69 0)
 			(effects
 				(font
@@ -8317,7 +8302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 113.792 69.85 90)
 			(effects
 				(font
@@ -8385,7 +8370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCRT5000"
+		(property "Footprint" "SamacSys_Parts:TCRT5000"
 			(at 283.21 159.69 0)
 			(effects
 				(font
