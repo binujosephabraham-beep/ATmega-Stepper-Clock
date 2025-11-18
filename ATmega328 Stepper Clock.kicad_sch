@@ -1635,332 +1635,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor:Stepper_Motor_bipolar"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M2"
-				(at 5.08 2.121 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Stepper_Motor_bipolar"
-				(at 5.08 -0.419 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-				(at 0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-wire bipolar stepper motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "bipolar stepper motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -4.445 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 2.54)
-					(mid -3.8127 1.905)
-					(end -4.445 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 1.27)
-					(mid -3.8127 0.635)
-					(end -4.445 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 0)
-					(mid -3.8127 -0.635)
-					(end -4.445 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 -1.27)
-					(mid -3.8127 -1.905)
-					(end -4.445 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 4.445)
-					(mid -1.905 3.8127)
-					(end -2.54 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.445)
-					(mid -0.635 3.8127)
-					(end -1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 4.445)
-					(mid 0.635 3.8127)
-					(end 0 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 4.445)
-					(mid 1.905 3.8127)
-					(end 1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SBH11-PBPC-D05-ST-BK:SBH11-PBPC-D05-ST-BK"
 			(pin_names
 				(offset 1.016)
@@ -3167,259 +2841,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TCRT5000"
+		(symbol "VID28-05:VID28-05"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 16.51 7.62 0)
+			(property "Reference" "VID28-05"
+				(at 1.016 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "TCRT5000"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TCRT5000"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/83760/tcrt5000.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "VISHAY - TCRT5000. - SENSOR, OPTICAL, TRANSISTOR O/P"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Height" "6.8"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TCRT5000"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "782-TCRT5000"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TCRT5000?qs=glpcD2KT6uaaYldHGIIt5g%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TCRT5000"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tcrt5000/vishay?utm_currency=USD&region=nac"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TCRT5000_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Stepper_Motor_bipolar_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M1"
-				(at 5.08 2.121 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Stepper_Motor_bipolar"
-				(at 5.08 -0.419 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-				(at 0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-wire bipolar stepper motor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3428,15 +2870,7 @@
 					(hide yes)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "bipolar stepper motor"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3445,7 +2879,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3454,189 +2888,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "Stepper_Motor_bipolar_1_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
-					)
+			(symbol "VID28-05_1_1"
+				(rectangle
+					(start -15.24 11.43)
+					(end 20.32 -12.7)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Stepper_Motor_bipolar_1_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -4.445 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 2.54)
-					(mid -3.8127 1.905)
-					(end -4.445 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 1.27)
-					(mid -3.8127 0.635)
-					(end -4.445 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 0)
-					(mid -3.8127 -0.635)
-					(end -4.445 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 -1.27)
-					(mid -3.8127 -1.905)
-					(end -4.445 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 4.445)
-					(mid -1.905 3.8127)
-					(end -2.54 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.445)
-					(mid -0.635 3.8127)
-					(end -1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 4.445)
-					(mid 0.635 3.8127)
-					(end 0 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 4.445)
-					(mid 1.905 3.8127)
-					(end 1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_1_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -17.78 8.89 0)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "MA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3645,16 +2919,16 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at -17.78 3.81 0)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D"
+					(number "MC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3663,16 +2937,16 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 7.62 270)
+					(at -17.78 -3.81 0)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "HA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3681,16 +2955,88 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 7.62 270)
+					(at -17.78 -8.89 0)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B"
+					(number "HC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "HB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "HD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4054,6 +3400,12 @@
 		(uuid "5f1c8284-6ddf-486f-9c9c-9b8101fe241c")
 	)
 	(junction
+		(at 140.97 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ab6c9d-91e7-49ab-8c49-82c82ea32c94")
+	)
+	(junction
 		(at 97.79 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4173,16 +3525,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 173.99) (xy 149.86 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039d8273-aa54-4328-aabc-6401c7a00611")
-	)
-	(wire
-		(pts
 			(xy 129.54 93.98) (xy 129.54 91.44)
 		)
 		(stroke
@@ -4193,33 +3535,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 139.7) (xy 304.8 146.05)
+			(xy 140.97 173.99) (xy 149.86 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17fc6bd0-8018-4e53-a3e5-7a2e4e8604ca")
-	)
-	(wire
-		(pts
-			(xy 318.77 73.66) (xy 318.77 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "189be1ad-3b1f-4aad-b206-7f65e61e6356")
-	)
-	(wire
-		(pts
-			(xy 346.71 72.39) (xy 346.71 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e0ba0d-58b7-4d4b-9fb0-5c3bfd63bf5f")
+		(uuid "19c9e10d-8deb-45c3-8e9a-983cf310dec4")
 	)
 	(wire
 		(pts
@@ -4303,16 +3625,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 86.36) (xy 309.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35dbea80-b639-4ae1-a81f-3621e334820d")
-	)
-	(wire
-		(pts
 			(xy 191.77 180.34) (xy 201.93 180.34)
 		)
 		(stroke
@@ -4320,16 +3632,6 @@
 			(type default)
 		)
 		(uuid "3842e92a-4232-4434-8906-12675ad6c87a")
-	)
-	(wire
-		(pts
-			(xy 294.64 54.61) (xy 294.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f9fd00-13ce-4e58-abe1-2f76445d4eb7")
 	)
 	(wire
 		(pts
@@ -4353,7 +3655,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 165.1) (xy 140.97 176.53)
+			(xy 279.4 101.6) (xy 289.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2fa9d5-f82a-4cea-bfd7-da5acde909ac")
+	)
+	(wire
+		(pts
+			(xy 140.97 161.29) (xy 140.97 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4383,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 64.77) (xy 294.64 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5282ae69-220e-4485-9b26-52bd1d043010")
-	)
-	(wire
-		(pts
 			(xy 219.71 69.85) (xy 212.09 69.85)
 		)
 		(stroke
@@ -4400,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "52ee7e59-c7a5-4f24-a82a-a345602a4a60")
-	)
-	(wire
-		(pts
-			(xy 341.63 64.77) (xy 349.25 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5365614d-71bb-477f-ab54-2096ee5dd018")
 	)
 	(wire
 		(pts
@@ -4453,6 +3745,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 165.1) (xy 140.97 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645a0345-6402-4737-9e9f-7fb8fd8dda7e")
+	)
+	(wire
+		(pts
 			(xy 129.54 140.97) (xy 129.54 138.43)
 		)
 		(stroke
@@ -4460,16 +3762,6 @@
 			(type default)
 		)
 		(uuid "68384a12-42b5-422a-b2ca-69d91bd5fe1a")
-	)
-	(wire
-		(pts
-			(xy 292.1 97.79) (xy 299.72 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f46aeb-1441-4b61-bbc5-0f6dc36251fb")
 	)
 	(wire
 		(pts
@@ -4513,16 +3805,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 67.31) (xy 321.31 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fea4d8-5493-4697-8929-5475f34f0b78")
-	)
-	(wire
-		(pts
 			(xy 134.62 86.36) (xy 140.97 86.36)
 		)
 		(stroke
@@ -4563,13 +3845,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 71.12) (xy 265.43 67.31)
+			(xy 340.36 87.63) (xy 330.2 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f81508d-87b8-47f8-a386-3bf43dfefbea")
+		(uuid "8370faf3-4839-411c-a9f7-c0faf798e8d3")
 	)
 	(wire
 		(pts
@@ -4583,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 96.52) (xy 289.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85eeca2e-7d8a-471b-9fbb-e7919181d94c")
+	)
+	(wire
+		(pts
 			(xy 129.54 138.43) (xy 140.97 138.43)
 		)
 		(stroke
@@ -4593,6 +3885,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 83.82) (xy 289.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a795240-3e34-4501-bc52-375484a417bb")
+	)
+	(wire
+		(pts
 			(xy 129.54 88.9) (xy 129.54 86.36)
 		)
 		(stroke
@@ -4600,16 +3902,6 @@
 			(type default)
 		)
 		(uuid "8d188d89-c5ae-4a63-accb-dbf173e1b909")
-	)
-	(wire
-		(pts
-			(xy 140.97 176.53) (xy 149.86 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c92819-2321-48c6-891c-59f7f957e5bc")
 	)
 	(wire
 		(pts
@@ -4663,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 100.33) (xy 330.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ba1aae-7a3d-4338-adaa-9409edb55674")
+	)
+	(wire
+		(pts
 			(xy 115.57 73.66) (xy 115.57 76.2)
 		)
 		(stroke
@@ -4670,16 +3972,6 @@
 			(type default)
 		)
 		(uuid "a66e329d-8f6c-429f-bcb7-e4b3bf8f62ae")
-	)
-	(wire
-		(pts
-			(xy 349.25 53.34) (xy 349.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c8cf81-ca50-4987-9ce3-a9f68fa9e38b")
 	)
 	(wire
 		(pts
@@ -4763,16 +4055,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 151.13) (xy 299.72 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce45a88-3fc8-42ab-af0e-714fb7a32924")
-	)
-	(wire
-		(pts
 			(xy 219.71 113.03) (xy 212.09 113.03)
 		)
 		(stroke
@@ -4780,16 +4062,6 @@
 			(type default)
 		)
 		(uuid "bf0e6d61-3e01-41df-9835-a012f3be6a08")
-	)
-	(wire
-		(pts
-			(xy 265.43 67.31) (xy 266.7 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c316a069-5ecf-463f-8228-bddc94b9c4cd")
 	)
 	(wire
 		(pts
@@ -4803,13 +4075,13 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 67.31) (xy 287.02 67.31)
+			(xy 340.36 83.82) (xy 330.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c86b9aa9-1786-4640-b855-5b8409844e35")
+		(uuid "c948da71-faf0-4df1-8b29-31067f0811f2")
 	)
 	(wire
 		(pts
@@ -4820,16 +4092,6 @@
 			(type default)
 		)
 		(uuid "c9d33779-0fa7-4aec-8513-0651f5852b99")
-	)
-	(wire
-		(pts
-			(xy 304.8 86.36) (xy 304.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ae3203-9ad5-436b-983a-29b733db8ede")
 	)
 	(wire
 		(pts
@@ -4853,6 +4115,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 96.52) (xy 330.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6763d44-a93f-462e-8a97-0e33bb9bd742")
+	)
+	(wire
+		(pts
 			(xy 120.65 125.73) (xy 140.97 125.73)
 		)
 		(stroke
@@ -4863,13 +4135,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 139.7) (xy 309.88 146.05)
+			(xy 138.43 176.53) (xy 149.86 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da011d35-0879-4ac8-99dc-56e38a504336")
+		(uuid "da931fe6-fcc4-43c3-a12c-082c3b0815dd")
 	)
 	(wire
 		(pts
@@ -4890,16 +4162,6 @@
 			(type default)
 		)
 		(uuid "dcddd770-9818-4b1d-8e8b-d8e266f15da6")
-	)
-	(wire
-		(pts
-			(xy 292.1 102.87) (xy 299.72 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0950f0-34e4-46c7-99e2-0e2172b17944")
 	)
 	(wire
 		(pts
@@ -4933,26 +4195,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 71.12) (xy 289.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5169b39-e54e-40e0-b8e6-8dda176de848")
-	)
-	(wire
-		(pts
-			(xy 293.37 156.21) (xy 299.72 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1465d3-218c-473b-984a-bf3971696746")
-	)
-	(wire
-		(pts
 			(xy 199.39 175.26) (xy 201.93 175.26)
 		)
 		(stroke
@@ -4970,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "f1d8a635-09f0-4ca6-bfbc-5178ac75f14c")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 289.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f926274a-e2e1-4e1b-afe5-2cbf0b8d980a")
 	)
 	(wire
 		(pts
@@ -4991,19 +4243,9 @@
 		)
 		(uuid "ff1a0550-37b8-47b9-abb2-44a5a12781c8")
 	)
-	(wire
-		(pts
-			(xy 346.71 67.31) (xy 341.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb4947b-2de3-4dfa-a91f-6fffa7f530e3")
-	)
 	(global_label "SCK"
 		(shape input)
-		(at 139.7 173.99 180)
+		(at 138.43 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5013,7 +4255,7 @@
 		)
 		(uuid "10402631-568b-4159-aff5-a308731a86d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9653 173.99 0)
+			(at 131.6953 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,28 +4278,6 @@
 		(uuid "223d7a3e-85ab-4103-98ac-e14e136425ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.4837 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOT_HOUR_A"
-		(shape input)
-		(at 304.8 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e9bb871-0f4f-4981-962e-d3b7555a136e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 71.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,28 +4327,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOT_MINUTE_C"
-		(shape input)
-		(at 293.37 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37253ef3-3e48-4491-b4a6-252b221cd9ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5963 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5243,6 +4441,50 @@
 			)
 		)
 	)
+	(global_label "MOT_HOUR_C"
+		(shape input)
+		(at 279.4 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a3df612-f571-4ecc-8f8f-d6581f9f61e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.1986 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO&MOT_MINUTE_B"
+		(shape input)
+		(at 340.36 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d1680a7-864d-48f5-8a62-c528339bd164")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.3023 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MISO&MOT_MINUTE_B"
 		(shape input)
 		(at 139.7 171.45 180)
@@ -5331,24 +4573,24 @@
 			)
 		)
 	)
-	(global_label "MOT_HOUR_C"
+	(global_label "MOT_HOUR_D"
 		(shape input)
-		(at 292.1 97.79 180)
+		(at 340.36 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "65bad8d4-624b-4996-a9d6-77048d4dfe19")
+		(uuid "6a6adf85-7f2f-47b0-ac32-301695e4c9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.8986 97.79 0)
+			(at 355.5614 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5388,6 +4630,28 @@
 		(uuid "76bca6d0-71ef-42b5-9b26-cc61d9671dd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.57 84.9303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOT_MINUTE_C"
+		(shape input)
+		(at 279.4 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78de2983-a0eb-4a8a-bcef-b88d982c10fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.6263 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,50 +4727,6 @@
 			)
 		)
 	)
-	(global_label "MOT_MINUTE_D"
-		(shape input)
-		(at 293.37 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "95340fdc-63c8-43cb-af43-52734a3ae516")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5963 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOT_MINUTE_A"
-		(shape input)
-		(at 304.8 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96aaf228-41db-4643-8d07-540a8c7794c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 123.1077 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 163.83 209.55 180)
@@ -5573,50 +4793,6 @@
 			)
 		)
 	)
-	(global_label "MOT_HOUR_B"
-		(shape input)
-		(at 309.88 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1cb9ebf-3074-4ae5-b02a-ab06b1a77f23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.88 71.1586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOT_HOUR_D"
-		(shape input)
-		(at 292.1 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b89d7dc4-d2f1-4ae9-ac76-51e13b09926b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.8986 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOT_HOUR_A"
 		(shape input)
 		(at 219.71 87.63 0)
@@ -5639,24 +4815,24 @@
 			)
 		)
 	)
-	(global_label "PD2"
+	(global_label "MOT_MINUTE_D"
 		(shape input)
-		(at 266.7 64.77 180)
+		(at 340.36 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c9c9c19e-dd2f-4610-a90b-d9a39adba0ad")
+		(uuid "c8fd0285-d812-426f-b365-5f5419b2fa86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.9653 64.77 0)
+			(at 357.1337 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5683,9 +4859,9 @@
 			)
 		)
 	)
-	(global_label "PD3"
+	(global_label "MOT_MINUTE_A"
 		(shape input)
-		(at 321.31 64.77 180)
+		(at 279.4 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5693,9 +4869,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ebeafd3e-f6c3-467c-ac55-fcdc0706b794")
+		(uuid "e07dfaab-a200-46c0-8a76-a4192af61e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.5753 64.77 0)
+			(at 262.8077 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,9 +4881,31 @@
 			)
 		)
 	)
-	(global_label "MISO&MOT_MINUTE_B"
+	(global_label "MOT_HOUR_A"
 		(shape input)
-		(at 309.88 139.7 90)
+		(at 279.4 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef4404a5-3c18-4967-9966-50bf15d16aa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOT_HOUR_B"
+		(shape input)
+		(at 340.36 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5715,9 +4913,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f7da324a-380c-46f2-bae7-37d9a811b9cf")
+		(uuid "f97b0c35-c409-467a-96e4-d249f1edbed0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.88 116.7577 90)
+			(at 355.5614 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,75 +5062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 294.64 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "096984fe-50cc-44a2-af5e-8c4fa9d22c26")
-		(property "Reference" "R2"
-			(at 296.418 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 296.418 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 292.862 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 294.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e30370e4-1a13-43a6-9f45-f512a25b9235")
-		)
-		(pin "1"
-			(uuid "d0904dae-ee0d-43a0-b17a-276ff94d41ba")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 138.43 0)
 		(unit 1)
@@ -5993,72 +5122,6 @@
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 289.56 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e8d45c-eb67-419b-be05-9b6dacc6f14f")
-		(property "Reference" "#PWR012"
-			(at 289.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f4a0e65-403d-405b-9f5e-244b3804554f")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6348,75 +5411,6 @@
 			(project "ATmega328 Stepper Clock"
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 349.25 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "419a3dcd-8da0-4a60-960a-5442a22fe214")
-		(property "Reference" "R3"
-			(at 351.028 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 351.028 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 347.472 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 349.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48a567d1-f147-4b10-ac4c-26d58e6adc5c")
-		)
-		(pin "1"
-			(uuid "e4823c65-c53a-473c-a9f7-124dce19b8bc")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6983,138 +5977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 294.64 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "576e6ab9-eda3-4751-bb50-ba130c51d2bc")
-		(property "Reference" "#PWR015"
-			(at 294.64 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 294.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 294.64 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d0d7cc3-b107-4fc1-bd70-7b7eb1095e00")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59435af4-97bb-4958-bfcf-8c9e5ad5fec3")
-		(property "Reference" "#PWR011"
-			(at 265.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18273942-2af7-4bab-b646-2a6e6a1d58fb")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 125.73 90)
 		(unit 1)
@@ -7178,91 +6040,6 @@
 			(project "ATmega328 Stepper Clock"
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Stepper_Motor_bipolar_1")
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 307.34 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "631726ac-60e3-4e79-a7b2-0c8d1f549f4d")
-		(property "Reference" "M1"
-			(at 312.42 98.209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 312.42 100.749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.594 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 307.594 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 307.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 307.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "27a4122f-6210-4c1e-b655-336a08f029e4")
-		)
-		(pin "D"
-			(uuid "39b6f899-a39f-4250-93c5-7068c176b20b")
-		)
-		(pin "C"
-			(uuid "8545d3b4-fccf-4cee-b207-a458878f36d9")
-		)
-		(pin "B"
-			(uuid "b9878748-0b5d-41e6-9528-283b7c0f9994")
-		)
-		(instances
-			(project ""
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -7797,34 +6574,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 318.77 73.66 0)
+		(lib_id "VID28-05:VID28-05")
+		(at 307.34 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c08a662b-b28a-412a-82f7-114774ef8afe")
-		(property "Reference" "#PWR013"
-			(at 318.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 318.77 78.74 0)
+		(uuid "cdf67740-7f22-4e14-870c-1ceea23ede7f")
+		(property "Reference" "VID28-1"
+			(at 309.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 318.77 73.66 0)
+		(property "Value" "~"
+			(at 309.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VID28-05:VID28-05"
+			(at 307.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +6609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 73.66 0)
+			(at 307.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,8 +6617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 73.66 0)
+		(property "Description" ""
+			(at 307.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,145 +6626,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c0157d61-9fdf-44bc-b7b8-4fa2601bd1f4")
+		(pin "MD"
+			(uuid "fc75a605-c7e3-4d68-9a71-17010dfd9f5a")
+		)
+		(pin "HC"
+			(uuid "6e2f7c92-375b-4ab2-8fdc-39a2e794d500")
+		)
+		(pin "MC"
+			(uuid "6ac886ee-3b50-4ef8-acec-803ea0f670ce")
+		)
+		(pin "MB"
+			(uuid "117a41fd-0690-4714-9fdd-b0d7664327f5")
+		)
+		(pin "MA"
+			(uuid "01ab5c59-c5f0-4e21-b08d-727529202500")
+		)
+		(pin "HA"
+			(uuid "6f3330a1-0c59-4825-ace4-91ff73910d60")
+		)
+		(pin "HB"
+			(uuid "4c844b74-ae78-4383-8f44-c3e0d14c9b86")
+		)
+		(pin "HD"
+			(uuid "3d7e5996-d684-47bb-84d1-4598cb5ff0d3")
 		)
 		(instances
-			(project "ATmega328 Stepper Clock"
+			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 346.71 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbd70074-a238-4826-a8fa-7790de737c00")
-		(property "Reference" "#PWR014"
-			(at 346.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 346.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "918a16b3-c5b9-4669-87cf-efb9bbfeeb11")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 349.25 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d312fcbe-ea76-43cf-a127-61ac0026bd3a")
-		(property "Reference" "#PWR016"
-			(at 349.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 349.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 349.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00651042-a51a-49c4-b526-cadc8ff8767e")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "#PWR016")
+					(reference "VID28-1")
 					(unit 1)
 				)
 			)
@@ -8058,152 +6723,6 @@
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TCRT5000")
-		(at 321.31 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec3742c0-7027-4fa9-8f28-6f2a6c783e73")
-		(property "Reference" "Q2"
-			(at 331.47 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCRT5000"
-			(at 331.47 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:TCRT5000"
-			(at 337.82 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83760/tcrt5000.pdf"
-			(at 337.82 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - TCRT5000. - SENSOR, OPTICAL, TRANSISTOR O/P"
-			(at 321.31 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.8"
-			(at 337.82 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 337.82 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TCRT5000"
-			(at 337.82 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-TCRT5000"
-			(at 337.82 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TCRT5000?qs=glpcD2KT6uaaYldHGIIt5g%3D%3D"
-			(at 337.82 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TCRT5000"
-			(at 337.82 959.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tcrt5000/vishay?utm_currency=USD&region=nac"
-			(at 337.82 1059.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "803ede1e-d02d-4e50-9766-d710eb508c15")
-		)
-		(pin "1"
-			(uuid "3a4e374e-a644-497e-ad3c-8ad4e23537f8")
-		)
-		(pin "4"
-			(uuid "e41d5885-b85d-401d-8783-ac7502b657ea")
-		)
-		(pin "3"
-			(uuid "a0262a61-773b-46a9-ad10-17fb82418887")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8339,236 +6858,6 @@
 			(project ""
 				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TCRT5000")
-		(at 266.7 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f608d655-4e91-4e69-a8dd-f27fa4701e06")
-		(property "Reference" "Q1"
-			(at 276.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCRT5000"
-			(at 276.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:TCRT5000"
-			(at 283.21 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83760/tcrt5000.pdf"
-			(at 283.21 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - TCRT5000. - SENSOR, OPTICAL, TRANSISTOR O/P"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.8"
-			(at 283.21 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 283.21 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TCRT5000"
-			(at 283.21 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-TCRT5000"
-			(at 283.21 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TCRT5000?qs=glpcD2KT6uaaYldHGIIt5g%3D%3D"
-			(at 283.21 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TCRT5000"
-			(at 283.21 959.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tcrt5000/vishay?utm_currency=USD&region=nac"
-			(at 283.21 1059.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a3ea654-da90-4b10-a3eb-ce9d4587b6e5")
-		)
-		(pin "1"
-			(uuid "22474358-6471-4692-8a4f-f9a887b90d2f")
-		)
-		(pin "4"
-			(uuid "554705df-b610-4fae-b66c-a48bde3882a8")
-		)
-		(pin "3"
-			(uuid "720f2614-aba9-4f92-a727-94af9edbc63d")
-		)
-		(instances
-			(project ""
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 307.34 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb7be611-0027-4af3-87f1-83f3dfdf7a23")
-		(property "Reference" "M2"
-			(at 312.42 151.549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 312.42 154.089 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.594 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 307.594 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 307.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 307.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B"
-			(uuid "291027ec-fccb-47d4-9c1a-cb57e66203a8")
-		)
-		(pin "D"
-			(uuid "a68a78c9-f24a-4291-bfaf-ac9a78deb7c5")
-		)
-		(pin "A"
-			(uuid "dc540735-5523-4ed1-bb5b-45cf16d4e1e8")
-		)
-		(pin "C"
-			(uuid "152fd7c8-e314-47fe-89c7-292a4038657e")
-		)
-		(instances
-			(project "ATmega328 Stepper Clock"
-				(path "/58947f94-6b9d-44b0-813c-e16abdea2252"
-					(reference "M2")
 					(unit 1)
 				)
 			)
